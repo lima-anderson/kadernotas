@@ -1,4 +1,4 @@
-package com.pweb2.kadernotas.models;
+package com.pweb2.kadernotas.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

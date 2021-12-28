@@ -1,4 +1,4 @@
-package com.pweb2.kadernotas.models;
+package com.pweb2.kadernotas.model;
 
 public enum Situacao {
 	
