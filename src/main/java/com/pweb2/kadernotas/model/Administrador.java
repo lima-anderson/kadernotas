@@ -12,10 +12,19 @@ public class Administrador {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private long id;
+	
+	private String nome;
 	private String login;
 	private String senha;
 	
 	// Getters and Setters
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}	
+	
 	public String getLogin() {
 		return login;
 	}

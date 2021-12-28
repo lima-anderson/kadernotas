@@ -19,6 +19,7 @@ public class Estudante {
 	private long id;
 	
 	private String nome;
+	private Integer faltas;
 	private Date data_nascimento;
 	private BigDecimal nota1;
 	private BigDecimal nota2;
@@ -29,6 +30,13 @@ public class Estudante {
 	private Situacao situacao;
 	
 	// Getters an setters
+	public Integer getFaltas() {
+		return faltas;
+	}
+	public void setFaltas(Integer faltas) {
+		this.faltas = faltas;
+	}
+	
 	public String getNome() {
 		return nome;
 	}
