@@ -29,6 +29,14 @@ public class Estudante {
 	@Enumerated(EnumType.STRING)
 	private Situacao situacao;
 	
+	@Deprecated
+	protected Estudante() {};
+	
+	public Estudante(String nome, Date data) {
+		this.nome = nome;
+		this.data_nascimento = data;
+	}
+	
 	// Getters an setters
 	public Integer getFaltas() {
 		return faltas;
